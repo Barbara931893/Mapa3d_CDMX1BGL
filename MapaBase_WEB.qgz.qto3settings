@@ -1,0 +1,208 @@
+{
+  "KEYFRAMES": {
+    "camera": {
+      "groups": []
+    },
+    "layers": {
+      "Alcaldias_CDMX_9d763f8a_8eb2_49ea_9ccd_40fcb3c195a6": {
+        "enabled": true,
+        "groups": []
+      },
+      "CurvasMaestras_100m_073e3994_e20f_4444_92d1_c154daee65d4": {
+        "enabled": true,
+        "groups": []
+      },
+      "CurvasOrdinarias_20m_ad818112_cc81_4a85_9a1f_540cf875103c": {
+        "enabled": true,
+        "groups": []
+      },
+      "DEM_CDMX_9cc56840_1222_4866_8331_aa7ceb5ca345": {
+        "enabled": true,
+        "groups": []
+      },
+      "DEM_CDMX_hill_1247017d_5bcd_4ef6_9a29_16e16014a079": {
+        "enabled": true,
+        "groups": []
+      },
+      "Diseno_MapaWeb_1_Elevaciones_Elevaciones_CDMX_shp_204b8a0a_e3d6_437a_a7a0_bf64a279b802": {
+        "enabled": true,
+        "groups": []
+      },
+      "Diseno_MapaWeb_2_Lago_Lago1519_CDMX_shp_b65c2c0c_65cc_4746_a368_fdd3c60f46d5": {
+        "enabled": true,
+        "groups": []
+      },
+      "Estatal_CDMX_8a7c6c14_83ce_4fc1_9571_83d5497574be": {
+        "enabled": true,
+        "groups": []
+      },
+      "RedHidro_CDMX_98b0ffb6_de5a_4194_9455_37356fe563fa": {
+        "enabled": true,
+        "groups": []
+      },
+      "TiposVegetacion_CDMX_48e6dc62_3189_4834_9009_e1ca3515776f": {
+        "enabled": true,
+        "groups": []
+      },
+      "fp:ad3fb2cb": {
+        "enabled": true,
+        "groups": []
+      }
+    },
+    "repeat": false
+  },
+  "LAYERS": [
+    {
+      "geomType": 3,
+      "layerId": "Diseno_MapaWeb_2_Lago_Lago1519_CDMX_shp_b65c2c0c_65cc_4746_a368_fdd3c60f46d5",
+      "name": "Lago1519_CDMX",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "Diseno_MapaWeb_1_Elevaciones_Elevaciones_CDMX_shp_204b8a0a_e3d6_437a_a7a0_bf64a279b802",
+      "name": "Elevaciones_CDMX",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "Estatal_CDMX_8a7c6c14_83ce_4fc1_9571_83d5497574be",
+      "name": "Estatal_CDMX",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "CurvasMaestras_100m_073e3994_e20f_4444_92d1_c154daee65d4",
+      "name": "CurvasMaestras_100m",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "CurvasOrdinarias_20m_ad818112_cc81_4a85_9a1f_540cf875103c",
+      "name": "CurvasOrdinarias_20m",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "RedHidro_CDMX_98b0ffb6_de5a_4194_9455_37356fe563fa",
+      "name": "RedHidro_CDMX",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "Alcaldias_CDMX_9d763f8a_8eb2_49ea_9ccd_40fcb3c195a6",
+      "name": "Alcaldias_CDMX",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "DEM_CDMX_9cc56840_1222_4866_8331_aa7ceb5ca345",
+      "name": "DEM_CDMX",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Diseno_MapaWeb_2_Lago_Lago1519_CDMX_shp_b65c2c0c_65cc_4746_a368_fdd3c60f46d5",
+        "horizontalSlider_DEMSize": 6,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "aa521f43",
+            "name": "map (canvas)",
+            "properties": {
+              "checkBox_Shading": true,
+              "checkBox_TransparentBackground": false,
+              "comboBox_TextureSize": "1024",
+              "radioButton_PNG": true,
+              "spinBox_Opacity": 100
+            },
+            "type": 0
+          }
+        ],
+        "mtlId": "aa521f43",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 3,
+      "layerId": "TiposVegetacion_CDMX_48e6dc62_3189_4834_9009_e1ca3515776f",
+      "name": "TiposVegetacion_CDMX",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "DEM_CDMX_hill_1247017d_5bcd_4ef6_9a29_16e16014a079",
+      "name": "DEM_CDMX_hill",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "fp:ad3fb2cb",
+      "name": "Flat Plane",
+      "properties": {},
+      "visible": false
+    }
+  ],
+  "SCENE": {
+    "checkBox_FixAspectRatio": true,
+    "checkBox_Outline": false,
+    "colorButton_Color": [
+      0,
+      0,
+      0,
+      255
+    ],
+    "colorButton_Fog": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "comboBox_MaterialType": 0,
+    "comboBox_xyShift": true,
+    "groupBox_Fog": false,
+    "lineEdit_CenterX": "46910.89913502678",
+    "lineEdit_CenterY": "33192.983674849835",
+    "lineEdit_Height": "80292.03345379133",
+    "lineEdit_Rotation": "0",
+    "lineEdit_Width": "80292.03345379133",
+    "lineEdit_zFactor": "3",
+    "radioButton_Color": true,
+    "slider_Fog": 41
+  },
+  "Version": 20800
+}
